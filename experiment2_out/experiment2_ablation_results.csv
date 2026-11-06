@@ -1,0 +1,33 @@
+Target,AblationStep,NumFeatures,Features,Model,MAE,RMSE,R2
+PM2.5,A_PM10_only,1,PM10,LinearRegression,3.538,4.6596,0.694
+PM2.5,A_PM10_only,1,PM10,RandomForest,2.6225,3.628,0.8145
+PM2.5,A_PM10_only,1,PM10,LightGBM,2.6229,3.6292,0.8143
+PM2.5,A_PM10_only,1,PM10,XGBoost,2.623,3.6293,0.8143
+PM2.5,B_PM10_Wind,2,"PM10, WindSpeed",LinearRegression,3.6638,4.664,0.6934
+PM2.5,B_PM10_Wind,2,"PM10, WindSpeed",RandomForest,3.2542,4.4616,0.7194
+PM2.5,B_PM10_Wind,2,"PM10, WindSpeed",LightGBM,3.3149,4.5373,0.7098
+PM2.5,B_PM10_Wind,2,"PM10, WindSpeed",XGBoost,3.4584,4.7545,0.6814
+PM2.5,C_PM10_Humidity,2,"PM10, Humidity",LinearRegression,3.4564,4.586,0.7036
+PM2.5,C_PM10_Humidity,2,"PM10, Humidity",RandomForest,2.7056,3.7825,0.7983
+PM2.5,C_PM10_Humidity,2,"PM10, Humidity",LightGBM,2.8197,3.9176,0.7837
+PM2.5,C_PM10_Humidity,2,"PM10, Humidity",XGBoost,3.0291,4.1999,0.7514
+PM2.5,D_PM10_Wind_Humidity,3,"PM10, WindSpeed, Humidity",LinearRegression,3.564,4.5668,0.706
+PM2.5,D_PM10_Wind_Humidity,3,"PM10, WindSpeed, Humidity",RandomForest,2.7384,3.7542,0.8013
+PM2.5,D_PM10_Wind_Humidity,3,"PM10, WindSpeed, Humidity",LightGBM,2.8128,3.8433,0.7918
+PM2.5,D_PM10_Wind_Humidity,3,"PM10, WindSpeed, Humidity",XGBoost,3.1007,4.1854,0.7531
+PM10,A_PM25_only,1,PM2.5,LinearRegression,4.216,5.7533,0.7961
+PM10,A_PM25_only,1,PM2.5,RandomForest,4.2859,5.9249,0.7838
+PM10,A_PM25_only,1,PM2.5,LightGBM,4.2869,5.9273,0.7836
+PM10,A_PM25_only,1,PM2.5,XGBoost,4.287,5.9274,0.7836
+PM10,B_PM25_Wind,2,"PM2.5, WindSpeed",LinearRegression,4.5679,6.218,0.7619
+PM10,B_PM25_Wind,2,"PM2.5, WindSpeed",RandomForest,4.5661,6.3175,0.7542
+PM10,B_PM25_Wind,2,"PM2.5, WindSpeed",LightGBM,4.8456,6.7898,0.7161
+PM10,B_PM25_Wind,2,"PM2.5, WindSpeed",XGBoost,5.2444,7.2397,0.6772
+PM10,C_PM25_Humidity,2,"PM2.5, Humidity",LinearRegression,4.0759,5.5064,0.8133
+PM10,C_PM25_Humidity,2,"PM2.5, Humidity",RandomForest,5.5996,8.6345,0.5408
+PM10,C_PM25_Humidity,2,"PM2.5, Humidity",LightGBM,5.4485,8.3193,0.5738
+PM10,C_PM25_Humidity,2,"PM2.5, Humidity",XGBoost,6.1289,9.0875,0.4914
+PM10,D_PM25_Wind_Humidity,3,"PM2.5, WindSpeed, Humidity",LinearRegression,4.2456,5.7085,0.7993
+PM10,D_PM25_Wind_Humidity,3,"PM2.5, WindSpeed, Humidity",RandomForest,4.5732,6.3512,0.7516
+PM10,D_PM25_Wind_Humidity,3,"PM2.5, WindSpeed, Humidity",LightGBM,4.9055,6.5908,0.7325
+PM10,D_PM25_Wind_Humidity,3,"PM2.5, WindSpeed, Humidity",XGBoost,5.6618,7.8916,0.6165

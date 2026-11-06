@@ -1,0 +1,9 @@
+Target,Model,Features,MAE,RMSE,R2,Train_Time_sec,Predict_Time_ms,Model_Size_KB
+PM2.5,LinearRegression,"PM10, WindSpeed, Humidity",3.564,4.5668,0.706,0.0011,0.1235,0.66
+PM2.5,RandomForest,"PM10, WindSpeed, Humidity",2.7384,3.7542,0.8013,0.564,16.2021,3357.11
+PM2.5,LightGBM,"PM10, WindSpeed, Humidity",2.8128,3.8433,0.7918,0.1127,2.9672,279.04
+PM2.5,XGBoost,"PM10, WindSpeed, Humidity",3.1007,4.1854,0.7531,0.096,1.6488,396.81
+PM10,LinearRegression,"PM2.5, WindSpeed, Humidity",4.2456,5.7085,0.7993,0.0011,0.1008,0.66
+PM10,RandomForest,"PM2.5, WindSpeed, Humidity",4.5732,6.3512,0.7516,0.4261,13.1138,2703.77
+PM10,LightGBM,"PM2.5, WindSpeed, Humidity",4.9055,6.5908,0.7325,0.0971,2.589,276.15
+PM10,XGBoost,"PM2.5, WindSpeed, Humidity",5.6618,7.8916,0.6165,0.0627,1.2448,402.78

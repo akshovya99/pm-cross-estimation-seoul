@@ -1,0 +1,11 @@
+{
+  "device": "Raspberry Pi 4 Model B, 4 GB RAM",
+  "os": "Debian GNU/Linux 13 (trixie), kernel 6.18.29+rpt-rpi-v8",
+  "architecture": "aarch64",
+  "cpu_governor": "performance",
+  "clock_speed_ghz": 1.8,
+  "idle_temp_c": 39.4,
+  "python_version": "3.13.5",
+  "n_repeats_per_prediction": 20,
+  "rss_measurement_method": "one fresh subprocess per model (avoids glibc malloc-arena retention artifacts from sequential in-process measurement)"
+}
